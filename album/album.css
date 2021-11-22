@@ -16,7 +16,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s;
-    background-color: rgb(63, 63, 63); 
+    background-color: rgb(18, 18, 18); 
 }
 body::after{
     content: "";    
@@ -24,9 +24,6 @@ body::after{
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.3026960784313726) 100%);
-    opacity: 0.7;
 }
 /*album Page*/
 .image-artist-album{
@@ -49,20 +46,21 @@ body::after{
     margin-bottom: 40px;
 }
 .image-name-back{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(97, 97, 97);
     width: 100%;
 }
+
 .artist-name{
     font-size: 60px;
     font-weight: bolder;
     align-items: flex-end;
 }
-.artist-name-container{
+.artist-name-container{ 
     display:flex;
     align-items: flex-end;
     justify-content:flex-start;
     align-content: center;
-    width: 100%;
+    width: 100%; 
 }
 .icons-following{
     display:flex;
@@ -130,4 +128,5 @@ body::after{
     justify-content:center;
     align-content:flex-end;
 }
+
 
