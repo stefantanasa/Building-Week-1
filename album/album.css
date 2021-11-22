@@ -124,3 +124,10 @@ body::after{
     font-weight: bold;
     font-size: 18px;
 }
+
+.table-album{
+    align-items: center;
+    justify-content:center;
+    align-content:flex-end;
+}
+
