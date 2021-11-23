@@ -1,24 +1,12 @@
-
-
-//
-
-function showLessMore() {
+function hideNumAddIcon() {
     let a = document.getElementById("id-music-tabel")
-    let numberClass = a.getElementsByClassName("show-less-more")
+    let numberClass = a.getElementsByClassName("track-number-to-change-icon")
     for (let i = 0; i < numberClass.length; i++) {
         numberClass[i].style.display = "none";
-        document.getElementById("show-less-more-text").style.display = "flex"
-        document.getElementById("show-less-text").style.display = "none"
+        let b = a.getElementsByClassName("bi-play")
+        for (let i = 0; i < b.length; i++) {
+            b[i].style.display = "inline-block";
+
+        }
     }
 }
-
-function showLessMore1() {
-    let a = document.getElementById("id-music-tabel")
-    let numberClass = a.getElementsByClassName("show-less-more")
-    for (let i = 0; i < numberClass.length; i++) {
-        numberClass[i].style.display = "flex";
-        document.getElementById("show-less-more-text").style.display = "none"
-        document.getElementById("show-less-text").style.display = "flex"
-    }
-}
-
