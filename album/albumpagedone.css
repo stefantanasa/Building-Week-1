@@ -358,21 +358,7 @@ h1 {
 }
 
 
-#albumCover .seeMore,
-#albumCover .albumStats>p {
-    color: white;
-}
-
-#albumCover span>a {
-    color: white;
-    font-weight: 600;
-    font-size: 13px;
-}
-
-#albumCover p>span:nth-child(1)>a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
+ 
 
 
 /* Table */
