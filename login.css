@@ -165,6 +165,18 @@ p{
     background: white;
 
 }
+.wrapper{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+.wrapper img{
+    position: absolute;
+    right:0;
+    bottom: 40px;
+    height: 40px;
+
+}
 .loginp{
     font-weight: bold;
     font-size: 20px;
