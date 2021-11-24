@@ -5,6 +5,11 @@
   width: 200px !important;
 }
 
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 /* navbar */
 #profile {
   font-size: 14px;
@@ -16,11 +21,11 @@
 }
 
 .jumbotron {
-  background: rgb(0, 0, 0);
+  background: rgb(18, 18, 18);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(19, 3, 3, 1) 42%,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(18, 18, 18, 1) 10%,
     rgba(102, 22, 22, 1) 100%
   );
 }
@@ -59,7 +64,6 @@ body {
   margin-left: 200px;
 }
 #profile {
-  margin-right: 7%;
 }
 
 #arrowReturn,
