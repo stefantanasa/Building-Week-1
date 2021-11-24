@@ -56,6 +56,7 @@ h2{
     width: 600px;
     height: 50px;
     text-transform: uppercase;
+    /* width: 400px; */
 }
 .btn-outline-dark{
     border:solid 2px;
@@ -173,4 +174,25 @@ p{
     font-size: 18px;
     padding: 1px;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 765px) {
+    .btn-pill{
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    .container2{
+      max-width: 375px;
+    }
+    .btn-pill{
+        width: 370px;
+    }
+  }
+
+  @media screen and (max-width: 485px) {
+  .container{
+    overflow: hidden;
+    max-width: 380px;
+   }
 }
