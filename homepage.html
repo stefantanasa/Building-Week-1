@@ -25,7 +25,57 @@
 
 
 
-    <div class="container-fluid">
+
+
+
+
+
+
+
+
+    
+
+    <div class="container" id="everything">
+
+<!-- top navbar -->
+      
+        <nav class="navbar fixed-top bg-transparent">
+          <div class="container navbar-dark">
+
+            <div id="pageControls">
+              <a class="navbar-brand" href="#">
+                <svg  id="arrowReturn"xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                </svg>
+              <a class="navbar-brand" href="#">
+                <svg id="arrowForward"xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+          </div>
+        </div>
+
+          <!-- Profile -->
+       
+          <div class="dropdown" id="profile" >
+           
+            <a href="#" class="rounded-pill  btn  dropdown-toggle p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="text-white bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg> 
+              <span id="profile" class="text-white"> 1 Profile</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+       
+            </div>
+          </div>
+
+          
+        </nav>
+
+
 <div class="row">
 
 
@@ -168,69 +218,16 @@
 
 
 <div class="col-10">
-             <div class="row  fixed-top  ">
-                <!-- top navbar -->
-        
-                <div class="col d-flex justify-content-center  ">
-                  <nav class="navbar ">
-                    <div class="container navbar-dark">
-          
-                      <div id="pageControls">
-                        <a class="navbar-brand" href="#" >
-                          <svg  id="arrowReturn"xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-                          </svg>
-                        <a class="navbar-brand" href="#">
-                          <svg id="arrowForward"xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                        </svg>
-                    </div>
-                  </div>
-                </div>
-        
-                  <!-- Profile -->
-               
-                  <div class="col d-flex justify-content-end align-items-center ">
-                    <div class="dropdown mr-3" id="profile" >
-                     
-                      <a href="#" class="rounded-pill  btn  dropdown-toggle p-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
-          
-                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="text-white bi bi-person-circle" viewBox="0 0 16 16">
-                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                        </svg> 
-                        <span id="profile" class="text-white"> 1 Profile</span>
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Action</a>
-                 
-                      </div>
-                    </div>
-                  </div>
-        
-                  
-                </nav>
-             </div>
     
     <!-- JUMBOTRON -->
             
-      <div class="jumbotron p-0 pt-4">
-
-
-
-        
+      <div class="jumbotron">
         
           <div class="row">
 
-            <div class="col mt-4 mb-4">
-              
-   
-              
-              
-              
-              <h3>Good Morning </h3></div>
+            <div class="col mt-4 mb-4"><h3>Good Morning </h3></div>
           </div>
-          <div class="row flex-wrap">
+          <div class="row ">
             
             <div class="col d-inline-flex">
               <div class="image">
@@ -418,13 +415,13 @@
           </div>
           
           
-       
+        
       
     
 
           <!-- RECENTLY PLAYED CARDS -->
           <div class="row">
-            <div class="col-6 d-flex mt-4 mb-4 ">
+            <div class="col-6 mt-4 mb-4 ">
               <h3>Recently played</h3>
             </div>
             <div class="col-6 mt-4 mb-4 d-flex justify-content-end">
@@ -717,10 +714,10 @@
 
 
 
-<footer class="footer">
+
   <!-- start of the player/ footer -->
   
-  <div class="row text-muted fixed-bottom ">
+  <div class="row text-muted fixed-bottom d-flex align-items-center">
     <div class="col-1 d-flex align-items-center mr-0">
         
     <!-- image -->
@@ -918,8 +915,7 @@
   
   <!-- volume -->
             <div class="col-1 ">
-  
-                <div class="mt-5" style="height: 50px;">
+
                     <div class="progress" style="height: 10px">
                         <div
                           class="progress-bar w-25"
@@ -928,17 +924,16 @@
                           aria-valuemin="0"
                           aria-valuemax="20"
                         >
-                  </div>
-                
-              </div>
+                        </div>
+
                 </div>
   
-  
+  </div>
           
             </div>
       </div>
       <!-- end of the player/ footer -->
-    </footer>
+    
 
       
 
