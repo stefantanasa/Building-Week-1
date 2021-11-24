@@ -1,3 +1,10 @@
+/* recently played */
+
+.card.p-3 {
+  height: 300px !important;
+  width: 200px !important;
+}
+
 /* navbar */
 #profile {
   font-size: 14px;
