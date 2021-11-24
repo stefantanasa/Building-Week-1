@@ -22,7 +22,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     margin: auto;
- 
+    margin-top:80px;
 }
 
 /* Header */
@@ -34,6 +34,7 @@ header{
     border-bottom: lightgray solid 1px;
     height: 105px;
     margin-bottom: 40px;
+    width: 180%;
 }
 
 header img{
@@ -55,6 +56,7 @@ h2{
     width: 600px;
     height: 50px;
     text-transform: uppercase;
+    /* width: 400px; */
 }
 .btn-outline-dark{
     border:solid 2px;
@@ -126,7 +128,6 @@ fieldset{
 .login{
     width: 50%;
     height: 50px;
-    /* padding: 15px 80px; */
     border-radius: 90px;
     background: #1DB954;
     color: white;
@@ -160,8 +161,20 @@ p{
 
 }
 .container{
-    width: 100%;
+    width: 300%;
     background: white;
+
+}
+.wrapper{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+.wrapper img{
+    position: absolute;
+    right:0;
+    bottom: 40px;
+    height: 40px;
 
 }
 .loginp{
@@ -173,4 +186,25 @@ p{
     font-size: 18px;
     padding: 1px;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 765px) {
+    .btn-pill{
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 375px) {
+    .container2{
+      max-width: 375px;
+    }
+    .btn-pill{
+        width: 370px;
+    }
+  }
+
+  @media screen and (max-width: 485px) {
+  .container{
+    overflow: hidden;
+    max-width: 380px;
+   }
 }
