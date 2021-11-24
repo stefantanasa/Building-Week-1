@@ -38,6 +38,7 @@ p {
 #allContentWrapper {
     background: rgb(18, 18, 18);
     background: linear-gradient(0deg, rgba(18, 18, 18, 1) 81%, rgba(20, 20, 20, 1) 89%, rgba(33, 33, 33, 1) 93%, rgba(37, 37, 37, 1) 96%, rgba(43, 43, 43, 1) 100%);
+    
 }
 
 #allContentWrapper>main>section:last-child {
@@ -118,8 +119,6 @@ p {
 #download-app svg,
 .scrolling-svg>svg,
 #player-controls>.icon-target-area>svg,
-#pairingDevice>svg,
-#volumeMute-icon svg,
 #topBar .dropdown-menu .dropdown-item>svg {
     fill: white;
 }
@@ -134,7 +133,7 @@ p {
 }
 
 .square.mod-BGC {
-    background: linear-gradient(135deg, #450af5, #c4efd9);
+    background: linear-gradient(135deg, #ffffff, #c4efd9);
     background-image: linear-gradient( 135deg, rgb(69, 10, 245), rgb(196, 239, 217));
 }
 
