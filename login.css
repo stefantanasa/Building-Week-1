@@ -34,6 +34,7 @@ header{
     border-bottom: lightgray solid 1px;
     height: 105px;
     margin-bottom: 40px;
+    width: 180%;
 }
 
 header img{
@@ -160,7 +161,7 @@ p{
 
 }
 .container{
-    width: 100%;
+    width: 300%;
     background: white;
 
 }
