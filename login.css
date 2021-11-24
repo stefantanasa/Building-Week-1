@@ -177,6 +177,11 @@ p{
     height: 40px;
 
 }
+#icon{
+    background-image:url(/album/images/reCAPTCHA-logo@2x.png); 
+    background-repeat: no-repeat; 
+    background-position: 2px 3px;  
+}
 .loginp{
     font-weight: bold;
     font-size: 20px;
