@@ -19,6 +19,12 @@ div > p {
 
 /* recently played */
 
+.play-btn {
+  position: absolute;
+  top: 140px;
+  right: 30px;
+}
+
 .card.p-3 {
   height: 300px !important;
   width: 200px !important;
