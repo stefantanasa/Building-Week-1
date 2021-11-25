@@ -176,7 +176,6 @@
 
   </div>
 
-
   <!-- sidenav end -->
 
 
@@ -458,7 +457,7 @@
       
     <!-- col-md-5  col-lg-2  d-inline-flex m-2 -->
 
-          <!-- RECENTLY PLAYED CARDS -->
+          <!-- RECENTLY PLAYED CARDS TEXT -->
           <div class="row " >
             <div class="col-6 ">
               <h3>Recently played</h3>
@@ -469,7 +468,7 @@
             </div>
 
           </div>
-  
+  <!-- RECENTLY PLAYED CARDS  -->
           <div class="row-cols-1 d-flex overflow-hidden" >
            
   
@@ -566,7 +565,7 @@
           </div>
 
 
-            <!-- SHOWS TO TRY CARDS -->
+            <!-- SHOWS TO TRY CARDS TEXT -->
             <div class="row" >
               <div class="col-6 mt-4 mb-4  ">
               <h3>Shows to try</h3>
@@ -578,7 +577,7 @@
             </div>
           </div>
 
-          
+          <!-- SHOWS TO TRY CARDS  -->
           <div class="row-cols-1 d-flex overflow-hidden" >
            
   
@@ -748,29 +747,40 @@
      <div class="d-flex justify-content-around align-items-center mt-3">
        
            <!-- shuffle ico -->
-                <svg 
-                class="mr-1"
-                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
-                  <g fill="rgb(83, 83, 83)">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><g fill="rgb(83, 83, 83)">
                   <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418c.49.552.865 1.102 1.126 1.532c.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
                   <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/></g>
                 </svg>
            
   <!-- backward button -->
 
-            <svg class="mr-1" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M2 7H5V17H2V7Z" fill="rgb(179, 179, 179)" />
     <path d="M6 12L13.0023 7.00003V17L6 12Z" fill="rgb(179, 179, 179)" />
     <path d="M21.0023 7.00003L14 12L21.0023 17V7.00003Z" fill="rgb(179, 179, 179)" />
   </svg>
          
           <!-- play button -->
-          <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-play-circle-fill mr-1" viewBox="0 0 16 16">
-            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
-          </svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z"
+                fill="white"
+              />
+              <path
+                d="M16 12L10 16.3301V7.66987L16 12Z"
+                fill="white"
+              />
+            </svg>
           <!-- forward button -->
             <svg
-           
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -810,7 +820,7 @@
      </div>
   
         <!-- progress bar -->
-        <div class="progress mt-3 mb-3" style="height: 3px">
+        <div class="progress mt-3" style="height: 3px">
           <div
             class="progress-bar w-25"
             role="progressbar"
