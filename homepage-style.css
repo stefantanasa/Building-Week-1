@@ -19,6 +19,18 @@ div > p {
 
 /* recently played */
 
+.play-btn {
+}
+
+.card-play-btn {
+  fill: rgb(30, 215, 96);
+  opacity: 0%;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+
 .card.p-3 {
   height: 300px !important;
   width: 200px !important;
@@ -113,6 +125,11 @@ div > .card {
 
 div > .card:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+div > .card:hover .card-play-btn {
+  opacity: 100%;
+  top: 110px;
+  right: 20px;
 }
 
 .card.p-3 {
