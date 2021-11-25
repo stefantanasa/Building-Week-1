@@ -1,10 +1,20 @@
 /* footer */
-
+small {
+  color: gray;
+}
 .progress-bar {
   background-color: rgb(179, 179, 179);
+  border: 2px solid rgb(179, 179, 179);
 }
 .progress {
   background-color: rgb(83, 83, 83);
+}
+
+div > p {
+  overflow: hidden;
+  max-width: 15ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* recently played */
@@ -84,7 +94,7 @@ body {
 
 .row.text-muted {
   background-color: rgb(26, 26, 26);
-  box-shadow: 0px 0px 5px black;
+  box-shadow: 0px 0px 2px black;
 }
 
 .card.p-3 {
