@@ -39,23 +39,23 @@ p {
 
 #allContentWrapper {
   /* #albumBody  change later*/
-  background: rgb(28, 28, 31);
+  background: rgb(24, 24, 25);
   background: -moz-linear-gradient(
     0deg,
-    rgba(28, 28, 31, 0.9724264705882353) 70%,
-    rgba(83, 11, 116, 0.8127626050420168) 90%
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
   );
   background: -webkit-linear-gradient(
     0deg,
-    rgba(28, 28, 31, 0.9724264705882353) 70%,
-    rgba(83, 11, 116, 0.8127626050420168) 90%
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
   );
   background: linear-gradient(
     0deg,
-    rgba(28, 28, 31, 0.9724264705882353) 70%,
-    rgba(83, 11, 116, 0.8127626050420168) 90%
+    rgba(24, 24, 25, 0.9724264705882353) 57%,
+    rgba(117, 11, 115, 0.8127626050420168) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c1c1f",endColorstr="#530b74",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#181819",endColorstr="#750b73",GradientType=1);
 
   display: flex;
   width: 100%;
@@ -64,6 +64,15 @@ p {
 
 #allContentWrapper > main > section:last-child {
   margin-bottom: calc(10vh + 24px) !important;
+}
+
+#songsTitles {
+  font-size: small;
+  margin-top: 25px !important;
+}
+
+hr {
+  border-color: rgb(88, 87, 87);
 }
 
 #nav-sideBar #main-logo {
@@ -320,17 +329,6 @@ p {
   box-shadow: inset 2px 2px 4px;
 }
 
-#allContentWrapper {
-  background: rgb(24, 24, 24);
-  background: linear-gradient(
-    0deg,
-    rgba(24, 24, 24, 1) 60%,
-    rgba(18, 18, 18, 0.9) 78%,
-    rgb(133 132 99 / 80%) 93%,
-    rgba(65, 56, 52, 0.6) 100%
-  );
-}
-
 #memberMenu .btn-upgrade,
 #topBarReturn > button {
   box-shadow: none;
@@ -403,7 +401,7 @@ h1 {
   justify-content: flex-start;
   align-content: center;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 /*icons*/
