@@ -108,6 +108,7 @@ p {
     background-color: #000000;
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 
 
@@ -193,11 +194,18 @@ p {
     background-color: rgb(24, 24, 24)
 }*/
 #topBar {
-    background-color: rgb(18, 18, 18, 00);
-    z-index: 100;
-    position: sticky;
     top: 0px;
     transition: background-color .4s ease;
+    height: 100px;
+    width: 100%;
+    z-index: 70;
+    bottom: 0;
+    left:0;
+    right:0;
+    position: fixed;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
 }
 .gradientBG {
     background-color: rgb(40,40,40)!important;
@@ -211,17 +219,7 @@ p {
     top: 0px;
 }
 
-#topBarReturn>button {
-    background: #181818;
-    box-shadow: 9px 9px 16px rgba(0, 0, 0, 0.4), -9px -9px 16px rgba(73, 73, 73, 0.6);
-    border-radius: 20px;
-    /* border-radius: 50%; */
-    padding: 0px;
-    width: 32px;
-    height: 32px;
-    transform: scale(1);
-    transition: all linear .3s;
-}
+
 .bi-chevron-left{
     height: 30px;
     background: rgb(66, 66, 66);
@@ -230,6 +228,7 @@ p {
     border-radius: 50%;
     padding: 5px;
     cursor: pointer;
+    margin-left: 240px;
 }
 .bi-chevron-right{
     height: 30px;
@@ -265,12 +264,7 @@ p {
     max-width: 350px;
     min-width: 160px;
 }
-
-.btn.focus,
-.btn:focus {
-    outline: none;
-    box-shadow: none!important;
-}
+ 
 
 #topBar .dropdown-menu .dropdown-item {
     color: var(--fadedWhite);
@@ -384,65 +378,7 @@ h1 {
  
 
 
-/* Table */
-
- 
-#trackTable {
-    color: white;
-    background: rgb(24, 24, 24);
-    background: linear-gradient( 0deg, rgba(24, 24, 24, 1) 70%, rgba(18, 18, 18, 0.9) 80%, rgba(24, 24, 24, 0.8) 90%, rgba(43, 43, 43, 0.6) 100%);
-}
-
-#trackTable img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-}
-
-#trackTable #tableHeader {
-    border-bottom: 1px solid hsla(0, 0%, 100%, .1);
-    color: #b3b3b3;
-}
-
-#trackTable>div>table>thead>tr>th:nth-child(2) {
-    width: 16px;
-}
-
-#trackTable>div>table>tbody>tr>th {
-    width: 16px;
-}
-
-.table td,
-.table th {
-    vertical-align: middle;
-}
-
-#trackTable .trackNumber {
-    width: 32px;
-    height: 32px;
-}
-
-#trackTable .trackName {
-    overflow: hidden;
-}
-
-#trackTable .tableMusicTitle {
-    width: 100%;
-    overflow: hidden;
-}
-
-#trackTable .trackDuration {
-    max-width: 80px;
-}
-
-.modTranslate{
-    transform: translateY(4px);
-
-}
-
-#tableHeader{
-    transition: background-color .4s ease;
-}
+/* Table */ 
 .image-artist-album{
     border:0px;
     border-radius: 50%;
@@ -468,6 +404,7 @@ h1 {
     justify-content:flex-start;
     align-content: center;
     width: 100%; 
+    margin-top: 100px;
 }
 
 
@@ -533,7 +470,7 @@ h1 {
 table{
     width:100%;
     table-layout: fixed;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
 }
 
 #show-less-more-text{
