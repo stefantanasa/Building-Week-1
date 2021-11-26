@@ -1,3 +1,12 @@
+/* profile dropdown menu */
+.dropdown-menu {
+  background-color: rgb(18, 18, 18, 0.9) !important;
+  color: white;
+  border-radius: 6rem;
+  padding: -6rem;
+  transform: translate3d(340px, 24px, 0px);
+}
+
 /* footer */
 small {
   color: gray;
@@ -19,20 +28,17 @@ div > p {
 
 /* recently played */
 
-.play-btn {
-}
-
 .card-play-btn {
   fill: rgb(30, 215, 96);
   opacity: 0%;
-  transition: 0.4s ease-in-out;
+  transition: 0.2s ease-in-out;
   position: absolute;
   top: 120px;
   right: 20px;
 }
 
 .card.p-3 {
-  height: 300px !important;
+  height: 270px !important;
   width: 200px !important;
 }
 
@@ -57,7 +63,7 @@ div > p {
     0deg,
     rgba(18, 18, 18, 1) 0%,
     rgba(18, 18, 18, 1) 10%,
-    rgba(102, 22, 22, 1) 100%
+    rgb(77, 26, 26) 100%
   );
 }
 
@@ -121,6 +127,7 @@ div > .card {
   background-color: rgba(255, 255, 255, 0.05);
   color: white;
   box-shadow: 0px 0px 2px rgb(44, 44, 44);
+  transition: 0.2s ease-in-out;
 }
 
 div > .card:hover {
