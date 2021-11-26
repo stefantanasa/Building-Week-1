@@ -26,6 +26,7 @@ checkbox.addEventListener("change", function () {
     console.log("Checkbox is not checked..");
     getPlayerBg.style.backgroundColor = null;
     document.body.style.backgroundColor = null;
+    getJumbo.style.backgroundImage = null;
   }
 });
 
@@ -35,6 +36,3 @@ function goBack() {
 function goForward() {
   window.history.forward();
 }
-
-var audio = new Audio("/assets/killa-fonic.mp3");
-audio.play();
