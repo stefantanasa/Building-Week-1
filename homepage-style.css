@@ -1,20 +1,3 @@
-/* Sidebar */
-
-.sidebar {
-  background-color: black;
-  color: gray;
-}
-
-a {
-  text-decoration: none;
-  color: gray;
-  font-weight: 700;
-}
-
-a:hover {
-  background-color: white;
-}
-
 hr {
   size: 4px;
 
