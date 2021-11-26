@@ -499,9 +499,4 @@ small {
     background-color: rgb(83, 83, 83);
   }
   
-  div > p {
-    overflow: hidden;
-    max-width: 15ch;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
+
