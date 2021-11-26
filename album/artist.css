@@ -500,3 +500,8 @@ small {
   }
   
 
+.text-left{
+    /* margin-right: 20px; */
+    padding: 20px;
+    padding-top: 30px;
+}
