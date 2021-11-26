@@ -23,6 +23,9 @@ checkbox.addEventListener("change", function () {
       getDescription[i].style.backgroundColor = "rgba(0, 0, 0, 0.2)";
     }
   } else {
+    for (let i = 0; i < getDescription.length; i++) {
+      getDescription[i].style.backgroundColor = null;
+    }
     console.log("Checkbox is not checked..");
     getPlayerBg.style.backgroundColor = null;
     document.body.style.backgroundColor = null;
