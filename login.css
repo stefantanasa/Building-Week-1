@@ -1,7 +1,7 @@
 
     @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
     body{
-    background: rgb(18,18,18);
+    /* background: rgb(18,18,18); */
     font-family: 'monteserrat', sans-serif;
     color: #ffffff;
     font-weight: bolder;
@@ -213,3 +213,10 @@ p{
     max-width: 380px;
    }
 }
+
+@media screen and (max-width: 575px) {
+    .container{
+      overflow: hidden;
+      max-width: 380px;
+     }
+  }
