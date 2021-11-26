@@ -22,6 +22,7 @@ h2 {
   line-height: 28px;
   color: white;
 }
+
 h5 {
   font-size: 16px;
   font-weight: 600;
@@ -35,6 +36,10 @@ p {
   letter-spacing: 1px;
   line-height: 16px;
   color: var(--fadedWhite);
+}
+
+th span {
+  font-weight: lighter;
 }
 
 #allContentWrapper {
@@ -491,7 +496,7 @@ table {
   align-content: center;
   cursor: pointer;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .about-container {
